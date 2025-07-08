@@ -12,6 +12,7 @@ Proyecto Danasee [Sena]
 ### Postgres DB
 Se configuró en el puerto 5000 con los siguientes requerimientos al momento de su instalación:
 
+```python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -22,7 +23,7 @@ DATABASES = {
         'PORT': '5000'
     }
 }
-
+```
 ### Django 
 ```python 
 python -m pip install Django
